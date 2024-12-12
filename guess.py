@@ -22,10 +22,10 @@ def guessing_game():
         except ValueError:
             print("Invalid input. Please enter a number between 1 and 100.")
 
-    # Congratulate the user when they guess correctly
+    
     print(f"Congratulations! You guessed the number {number_to_guess} in {attempts} attempts.")
 
-# Start the game
+
 if __name__ == "__main__":
     guessing_game()
 
