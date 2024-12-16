@@ -1,7 +1,6 @@
 import random
 
 def guessing_game():
-    # Generate a random number between 1 and 100
     number_to_guess = random.randint(1, 100)
     attempts = 0
     user_guess = None
@@ -11,7 +10,6 @@ def guessing_game():
     
     while user_guess != number_to_guess:
         try:
-            # Get the user's guess and increment attempt counter
             user_guess = int(input("Enter your guess: "))
             attempts += 1
 
